@@ -1,15 +1,13 @@
-package org.lamisplus.modules.ml.controller.requestDto;
+package org.lamisplus.modules.ml.requestDto;
 
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NonNull;
 
-import java.io.Serializable;
-
 @Data
 @AllArgsConstructor
-public class MlRequestDTO  implements Serializable {
+public class HtsMlRequestDTO {
     @NonNull
     private ModelConfigs modelConfigs;
     @NonNull
